@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACI,QADI,CACJ,IAAI,CAAC;EACL,gBAAgB,EAAE,kBAAkB;CACrC;;AAGH,AAAA,QAAQ,CAAC;EACL,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;CACnB;;AAED,AAAA,SAAS,CAAC;EACN,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,EAAE;EACjB,YAAY,EAAE,KAAK;EACnB,YAAY,EAAE,IAAI;CACrB;;AAED,AAAA,GAAG,CAAC;EACA,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "Recycle.module.scss"
+    ],
+    "names": [],
+    "file": "Recycle.module.css"
+}

@@ -1,0 +1,47 @@
+.contain{
+    align-items: center;
+    background-image: linear-gradient( #f6e8e7, #fcf0e4);
+}
+
+.contain{
+    body {
+    font-family: WhitneySSm,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+}
+
+.box{
+    background-color: white;
+    padding: 3%;
+    /* height: 600px;
+    width: 400px; */
+}
+
+.welcome-header {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.42857143;
+    color: #424553;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.welcome-header-small {
+    font-size: 16px;
+    font-weight: 400;
+    color: #535766;
+}
+
+button{
+    background-color: #F5496B !important;
+    color: white !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 12px  !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+

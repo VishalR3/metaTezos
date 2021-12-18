@@ -1,0 +1,102 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.place-center {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.diceValueCard {
+  height: 250px;
+  border-radius: 1.5rem;
+  border-width: 5px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.diceValueCard:hover {
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.diceValueCard .diceValue {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.selectedValue {
+  border-color: #f38d19;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.gameStat {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  background: #fff;
+  border-radius: 16px;
+  border: none;
+  padding: 12px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.actionBar {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.actionBar .gameHint {
+  padding: 8px 64px !important;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.gameCard {
+  height: 300px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 16px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.gameCard:hover {
+  -webkit-box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.gameCard:active {
+  -webkit-box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.type-h1 {
+  font-size: 4rem;
+}
+
+.screenCenter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: url("../images/gameBg.jpeg");
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.content body {
+  background-color: #1C8EF9 !important;
+}
+
+.heading {
+  font-size: 10rem;
+  font-weight: 900;
+}
+
+.roundBox {
+  background-color: white;
+  border-radius: 4%;
+  border-color: black;
+  border-width: 1rem;
+}
+
+img {
+  height: 450px;
+}
+/*# sourceMappingURL=Recycle.module.css.map */
